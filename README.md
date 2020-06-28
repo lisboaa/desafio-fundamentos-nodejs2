@@ -1,8 +1,8 @@
 ## Como iniciar a aplicação
-Após realizar o clone do desafio utilize o comando ```yarn```, em seguida yarn ```dev:server```, para levantar o servidor.
+Após realizar o clone do desafio utilize o comando ```yarn```, em seguida ```yarn dev:server```, para levantar o servidor.
 
 ## Como iniciar o teste
-Para iniciar os testes utilize o comando ```yarn test```
+Para iniciar os testes utilize o comando ```yarn test```.
 
 ## Requisitos do desafio
 - **`POST /transactions`**: A rota deve receber `title`, `value` e `type` dentro do corpo da requisição, sendo `type` o tipo da transação, que deve ser `income` para entradas (depósitos) e `outcome` para saídas (retiradas). Ao cadastrar uma nova transação, ela deve ser armazenada dentro de um objeto com o seguinte formato :
@@ -71,18 +71,6 @@ Para esse desafio temos os seguintes testes:
 - **`should be able to list the transactions`**: Para que esse teste passe, sua aplicação deve permitir que seja retornado um objeto contendo todas as transações junto ao balanço de income, outcome e total das transações que foram criadas até o momento.
 
 - **`should not be able to create outcome transaction without a valid balance`**: Para que esse teste passe, sua aplicação não deve permitir que uma transação do tipo `outcome` extrapole o valor total que o usuário tem em caixa, retornando uma resposta com código HTTP 400 e uma mensagem de erro no seguinte formato: `{ error: string }`
-
-## :calendar: Entrega
-
-Esse desafio deve ser entregue a partir da plataforma Skylab, envie o link do repositório que você fez suas alterações. Após concluir o desafio, fazer um post no Linkedin e postar o código no Github é uma boa forma de demonstrar seus conhecimentos e esforços para evoluir na sua carreira para oportunidades futuras.
-
-## Solução do desafio
-
-Caso você queira ver como resolver o desafio, fizemos um vídeo explicando o passo a passo para cumprir com todos os requisitos da aplicação:
-
-<a href="https://youtu.be/FYsFvjM6AJM" target="_blank" align="center">
-  <img src="./assets/challenge-05-thumb.png">
-</a>
 
 ## :memo: Licença
 
